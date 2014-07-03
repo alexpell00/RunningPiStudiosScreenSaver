@@ -1,0 +1,278 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD79722F1965E5D50065EF5A /* RunningPiStudiosScreenSaverView.h in Headers */ = {isa = PBXBuildFile; fileRef = CD79722E1965E5D50065EF5A /* RunningPiStudiosScreenSaverView.h */; };
+		CD7972311965E5D50065EF5A /* RunningPiStudiosScreenSaverView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7972301965E5D50065EF5A /* RunningPiStudiosScreenSaverView.m */; };
+		CD7972381965E6930065EF5A /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = CD7972371965E6930065EF5A /* logo.png */; };
+		CD79723A1965F2180065EF5A /* logo-margin.png in Resources */ = {isa = PBXBuildFile; fileRef = CD7972391965F2180065EF5A /* logo-margin.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CD7972291965E5D50065EF5A /* RunningPiStudiosScreenSaver.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RunningPiStudiosScreenSaver.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD79722D1965E5D50065EF5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD79722E1965E5D50065EF5A /* RunningPiStudiosScreenSaverView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RunningPiStudiosScreenSaverView.h; sourceTree = "<group>"; };
+		CD7972301965E5D50065EF5A /* RunningPiStudiosScreenSaverView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunningPiStudiosScreenSaverView.m; sourceTree = "<group>"; };
+		CD7972371965E6930065EF5A /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		CD7972391965F2180065EF5A /* logo-margin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-margin.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD7972251965E5D50065EF5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD79721F1965E5D50065EF5A = {
+			isa = PBXGroup;
+			children = (
+				CD79722B1965E5D50065EF5A /* RunningPiStudiosScreenSaver */,
+				CD79722A1965E5D50065EF5A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD79722A1965E5D50065EF5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD7972291965E5D50065EF5A /* RunningPiStudiosScreenSaver.saver */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD79722B1965E5D50065EF5A /* RunningPiStudiosScreenSaver */ = {
+			isa = PBXGroup;
+			children = (
+				CD79722E1965E5D50065EF5A /* RunningPiStudiosScreenSaverView.h */,
+				CD7972301965E5D50065EF5A /* RunningPiStudiosScreenSaverView.m */,
+				CD79722C1965E5D50065EF5A /* Supporting Files */,
+			);
+			path = RunningPiStudiosScreenSaver;
+			sourceTree = "<group>";
+		};
+		CD79722C1965E5D50065EF5A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD7972371965E6930065EF5A /* logo.png */,
+				CD7972391965F2180065EF5A /* logo-margin.png */,
+				CD79722D1965E5D50065EF5A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CD7972261965E5D50065EF5A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD79722F1965E5D50065EF5A /* RunningPiStudiosScreenSaverView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		CD7972281965E5D50065EF5A /* RunningPiStudiosScreenSaver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD7972341965E5D50065EF5A /* Build configuration list for PBXNativeTarget "RunningPiStudiosScreenSaver" */;
+			buildPhases = (
+				CD7972241965E5D50065EF5A /* Sources */,
+				CD7972251965E5D50065EF5A /* Frameworks */,
+				CD7972261965E5D50065EF5A /* Headers */,
+				CD7972271965E5D50065EF5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RunningPiStudiosScreenSaver;
+			productName = RunningPiStudiosScreenSaver;
+			productReference = CD7972291965E5D50065EF5A /* RunningPiStudiosScreenSaver.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD7972201965E5D50065EF5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Alex Pelletier";
+				TargetAttributes = {
+					CD7972281965E5D50065EF5A = {
+						CreatedOnToolsVersion = 6.0;
+					};
+				};
+			};
+			buildConfigurationList = CD7972231965E5D50065EF5A /* Build configuration list for PBXProject "RunningPiStudiosScreenSaver" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CD79721F1965E5D50065EF5A;
+			productRefGroup = CD79722A1965E5D50065EF5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD7972281965E5D50065EF5A /* RunningPiStudiosScreenSaver */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD7972271965E5D50065EF5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD79723A1965F2180065EF5A /* logo-margin.png in Resources */,
+				CD7972381965E6930065EF5A /* logo.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD7972241965E5D50065EF5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD7972311965E5D50065EF5A /* RunningPiStudiosScreenSaverView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CD7972321965E5D50065EF5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CD7972331965E5D50065EF5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CD7972351965E5D50065EF5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RunningPiStudiosScreenSaver/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Debug;
+		};
+		CD7972361965E5D50065EF5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RunningPiStudiosScreenSaver/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD7972231965E5D50065EF5A /* Build configuration list for PBXProject "RunningPiStudiosScreenSaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD7972321965E5D50065EF5A /* Debug */,
+				CD7972331965E5D50065EF5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD7972341965E5D50065EF5A /* Build configuration list for PBXNativeTarget "RunningPiStudiosScreenSaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD7972351965E5D50065EF5A /* Debug */,
+				CD7972361965E5D50065EF5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD7972201965E5D50065EF5A /* Project object */;
+}
