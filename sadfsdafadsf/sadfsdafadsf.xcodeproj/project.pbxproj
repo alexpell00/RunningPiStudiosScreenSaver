@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD50E31A1978EAA2009D355E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD50E3191978EAA2009D355E /* main.m */; };
+		CD50E31D1978EAA2009D355E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD50E31C1978EAA2009D355E /* AppDelegate.m */; };
+		CD50E3201978EAA2009D355E /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD50E31F1978EAA2009D355E /* MasterViewController.m */; };
+		CD50E3231978EAA2009D355E /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD50E3221978EAA2009D355E /* DetailViewController.m */; };
+		CD50E3261978EAA2009D355E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD50E3241978EAA2009D355E /* Main.storyboard */; };
+		CD50E3281978EAA2009D355E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD50E3271978EAA2009D355E /* Images.xcassets */; };
+		CD50E3341978EAA2009D355E /* sadfsdafadsfTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD50E3331978EAA2009D355E /* sadfsdafadsfTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD50E32E1978EAA2009D355E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD50E30C1978EAA2009D355E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD50E3131978EAA2009D355E;
+			remoteInfo = sadfsdafadsf;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD50E3141978EAA2009D355E /* sadfsdafadsf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sadfsdafadsf.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD50E3181978EAA2009D355E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD50E3191978EAA2009D355E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD50E31B1978EAA2009D355E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CD50E31C1978EAA2009D355E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD50E31E1978EAA2009D355E /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		CD50E31F1978EAA2009D355E /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		CD50E3211978EAA2009D355E /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		CD50E3221978EAA2009D355E /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		CD50E3251978EAA2009D355E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD50E3271978EAA2009D355E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CD50E32D1978EAA2009D355E /* sadfsdafadsfTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sadfsdafadsfTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD50E3321978EAA2009D355E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD50E3331978EAA2009D355E /* sadfsdafadsfTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sadfsdafadsfTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD50E3111978EAA2009D355E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD50E32A1978EAA2009D355E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD50E30B1978EAA2009D355E = {
+			isa = PBXGroup;
+			children = (
+				CD50E3161978EAA2009D355E /* sadfsdafadsf */,
+				CD50E3301978EAA2009D355E /* sadfsdafadsfTests */,
+				CD50E3151978EAA2009D355E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD50E3151978EAA2009D355E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD50E3141978EAA2009D355E /* sadfsdafadsf.app */,
+				CD50E32D1978EAA2009D355E /* sadfsdafadsfTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD50E3161978EAA2009D355E /* sadfsdafadsf */ = {
+			isa = PBXGroup;
+			children = (
+				CD50E31B1978EAA2009D355E /* AppDelegate.h */,
+				CD50E31C1978EAA2009D355E /* AppDelegate.m */,
+				CD50E31E1978EAA2009D355E /* MasterViewController.h */,
+				CD50E31F1978EAA2009D355E /* MasterViewController.m */,
+				CD50E3211978EAA2009D355E /* DetailViewController.h */,
+				CD50E3221978EAA2009D355E /* DetailViewController.m */,
+				CD50E3241978EAA2009D355E /* Main.storyboard */,
+				CD50E3271978EAA2009D355E /* Images.xcassets */,
+				CD50E3171978EAA2009D355E /* Supporting Files */,
+			);
+			path = sadfsdafadsf;
+			sourceTree = "<group>";
+		};
+		CD50E3171978EAA2009D355E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD50E3181978EAA2009D355E /* Info.plist */,
+				CD50E3191978EAA2009D355E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD50E3301978EAA2009D355E /* sadfsdafadsfTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD50E3331978EAA2009D355E /* sadfsdafadsfTests.m */,
+				CD50E3311978EAA2009D355E /* Supporting Files */,
+			);
+			path = sadfsdafadsfTests;
+			sourceTree = "<group>";
+		};
+		CD50E3311978EAA2009D355E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD50E3321978EAA2009D355E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD50E3131978EAA2009D355E /* sadfsdafadsf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD50E3371978EAA2009D355E /* Build configuration list for PBXNativeTarget "sadfsdafadsf" */;
+			buildPhases = (
+				CD50E3101978EAA2009D355E /* Sources */,
+				CD50E3111978EAA2009D355E /* Frameworks */,
+				CD50E3121978EAA2009D355E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sadfsdafadsf;
+			productName = sadfsdafadsf;
+			productReference = CD50E3141978EAA2009D355E /* sadfsdafadsf.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD50E32C1978EAA2009D355E /* sadfsdafadsfTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD50E33A1978EAA2009D355E /* Build configuration list for PBXNativeTarget "sadfsdafadsfTests" */;
+			buildPhases = (
+				CD50E3291978EAA2009D355E /* Sources */,
+				CD50E32A1978EAA2009D355E /* Frameworks */,
+				CD50E32B1978EAA2009D355E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD50E32F1978EAA2009D355E /* PBXTargetDependency */,
+			);
+			name = sadfsdafadsfTests;
+			productName = sadfsdafadsfTests;
+			productReference = CD50E32D1978EAA2009D355E /* sadfsdafadsfTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD50E30C1978EAA2009D355E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Alex Pelletier";
+				TargetAttributes = {
+					CD50E3131978EAA2009D355E = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					CD50E32C1978EAA2009D355E = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = CD50E3131978EAA2009D355E;
+					};
+				};
+			};
+			buildConfigurationList = CD50E30F1978EAA2009D355E /* Build configuration list for PBXProject "sadfsdafadsf" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD50E30B1978EAA2009D355E;
+			productRefGroup = CD50E3151978EAA2009D355E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD50E3131978EAA2009D355E /* sadfsdafadsf */,
+				CD50E32C1978EAA2009D355E /* sadfsdafadsfTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD50E3121978EAA2009D355E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD50E3261978EAA2009D355E /* Main.storyboard in Resources */,
+				CD50E3281978EAA2009D355E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD50E32B1978EAA2009D355E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD50E3101978EAA2009D355E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD50E31D1978EAA2009D355E /* AppDelegate.m in Sources */,
+				CD50E3201978EAA2009D355E /* MasterViewController.m in Sources */,
+				CD50E31A1978EAA2009D355E /* main.m in Sources */,
+				CD50E3231978EAA2009D355E /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD50E3291978EAA2009D355E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD50E3341978EAA2009D355E /* sadfsdafadsfTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD50E32F1978EAA2009D355E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD50E3131978EAA2009D355E /* sadfsdafadsf */;
+			targetProxy = CD50E32E1978EAA2009D355E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD50E3241978EAA2009D355E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD50E3251978EAA2009D355E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD50E3351978EAA2009D355E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CD50E3361978EAA2009D355E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD50E3381978EAA2009D355E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = sadfsdafadsf/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CD50E3391978EAA2009D355E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = sadfsdafadsf/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CD50E33B1978EAA2009D355E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/sadfsdafadsf.app/sadfsdafadsf";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = sadfsdafadsfTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		CD50E33C1978EAA2009D355E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/sadfsdafadsf.app/sadfsdafadsf";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = sadfsdafadsfTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD50E30F1978EAA2009D355E /* Build configuration list for PBXProject "sadfsdafadsf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD50E3351978EAA2009D355E /* Debug */,
+				CD50E3361978EAA2009D355E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD50E3371978EAA2009D355E /* Build configuration list for PBXNativeTarget "sadfsdafadsf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD50E3381978EAA2009D355E /* Debug */,
+				CD50E3391978EAA2009D355E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CD50E33A1978EAA2009D355E /* Build configuration list for PBXNativeTarget "sadfsdafadsfTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD50E33B1978EAA2009D355E /* Debug */,
+				CD50E33C1978EAA2009D355E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD50E30C1978EAA2009D355E /* Project object */;
+}
